@@ -1,0 +1,11 @@
+<h1 class="title" data-bind="title"></h1>
+
+<h2 class="value" data-bind="price | shortenedNumber | prepend prefix"></h2>
+
+<p class="change-percent">
+  <i data-bind-class="arrow"></i><span data-bind="changepercent"></span>
+</p>
+
+<p class="more-info" data-bind="moreinfo | raw"></p>
+
+<p class="last-trade-time" data-bind="lasttrade"></p>

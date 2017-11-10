@@ -1,0 +1,5 @@
+---
+applications:
+- name: ps-MCMURCHIE-dashing
+  memory: 125MB
+  instances: 1
